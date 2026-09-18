@@ -87,9 +87,6 @@ All UML diagrams designed for this project can be found in the `/docs` directory
    * Using Command Prompt: `run.bat`
    * Using PowerShell: `./run.ps1`
 
-[Run the App](src/Main.java)
-
-
 ## Future Scope
 * **GUI Integration:** Migrate from a console based approach to a JavaFX or Web-based (Spring Boot) frontend.
 * **AI Image Recognition:** Allow users to upload images of found items and auto-categorize them.
