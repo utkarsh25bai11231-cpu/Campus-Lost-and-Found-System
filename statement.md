@@ -257,7 +257,6 @@ From an academic perspective, the project demonstrates how Java programming conc
 **Limitations:**
 
 The current implementation has some limitations:
-
 * It is command-line based.
 * It does not provide a web or mobile interface.
 * Matching is rule-based rather than machine-learning based.
@@ -265,7 +264,6 @@ The current implementation has some limitations:
 * The current database implementation is intended for the project environment rather than large-scale deployment.
 ## Future Enhancements
 Possible future enhancements include:
-
 * Development of a web-based interface.
 * Development of a mobile application.
 * Integration with institutional authentication.
@@ -283,4 +281,4 @@ The project combines multiple Java concepts including object-oriented programmin
 
 The application demonstrates how these concepts can be integrated into a single practical system with separate modules for users, reports, searching, matching, and claims.
 
-            **Thank You!**
+                      Thank You!
