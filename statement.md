@@ -66,15 +66,16 @@ The current project is mainly focused on demonstrating these features through a 
 * Maven based project management, and
 * Command line execution
 ### Not included in this scope:
-Graphical User Interface (GUI)
-Web application
-Mobile application
-REST API
-Machine Learning or Deep Learning based matching
-Computer Vision based image matching
-Cloud deployment
-External SMS or Email notification services, and
-Online payment systems
+
+* Graphical User Interface (GUI)
+* Web application
+* Mobile application
+* REST API
+* Machine Learning or Deep Learning based matching
+* Computer Vision based image matching
+* Cloud deployment
+* External SMS or Email notification services, and
+* Online payment systems
 
 ## Target Users
 This analyser is designed for a variety of users who need a simple and efficient system for collecting and managing information about the lost items and finding their matches in a certain time.
@@ -84,8 +85,11 @@ The intended users of the system are:
 **Students:** Students can report lost or found belongings, search reports, check possible matches and submit claims.
 
 **Faculty Members:** Faculty members can report and search their lost and found items and participate in the claim process.
+
 **Staff Members:** Campus staff members can manage reports and participate in the lost and found workflow.
+
 **Campus Administration / Security Staff:** This system provides a structured record that can support the management of lost and found items.
+
 **Academic Evaluators:** This project also demonstrates practical application of Java programming concepts for academic evaluation under CSE2006.
 
 ## Approaching Method
@@ -163,20 +167,21 @@ In Statement.md it is implemented as:
 
 Possible matches can be classified based on the calculated score.
 
-* Claim Management
+6. **Claim Management**
 
 Users can submit claims for found items.
 Claims can move through different statuses such as:
 
-- Pending
-- Approved
-- Rejected
+   - Pending
+   - Approved
+   - Rejected
 
-* Multithreading
+7. **Multithreading**
 
-Matching tasks can run in the background using Java's multithreading functionality.
+* Matching tasks can run in the background using Java's multithreading functionality.
 
-* File Export
+8. **File Export**
+
 The system provides file-based export functionality for application information and reports.
 
 ```text
