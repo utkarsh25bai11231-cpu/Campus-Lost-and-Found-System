@@ -176,37 +176,40 @@ Claims can move through different statuses such as:
    - Approved
    - Rejected
 
-7. **Multithreading**
+**7.** **Multithreading**
 
 * Matching tasks can run in the background using Java's multithreading functionality.
 
-8. **File Export**
+**8.** **File Export**
 
 The system provides file-based export functionality for application information and reports.
 
-```text
 Start
-↓
+  |
+  v
 Register / Login
-↓
+  |
+  v
 Main Menu
-|
-+---- Report Lost Item
-|
-+---- Report Found Item
-|
-+---- Search Items
-|
-+---- Find Possible Matches
-|
-+---- Manage Reports
-|
-+---- Claim Found Item
-|
-+---- Export Information
-↓
+  |
+  +---- Report Lost Item
+  |
+  +---- Report Found Item
+  |
+  +---- Search Items
+  |
+  +---- Find Possible Matches
+  |
+  +---- Manage Reports
+  |
+  +---- Claim Found Item
+  |
+  +---- Export Information
+  |
+  v
 Logout / Exit
-```
+
+
 ## Expected Outcomes
 This project is expected to outcome the followings:
 
