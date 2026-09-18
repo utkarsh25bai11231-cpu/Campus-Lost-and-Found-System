@@ -1,0 +1,23 @@
+# Build and Compiled Files
+target/
+bin/
+*.class
+
+# IDE and Editor Files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Log and OS Files
+*.log
+.DS_Store
+Thumbs.db
+
+# Generated export test files (optional)
+campus_reports_export.txt
+
+# Local database credentials
+db.properties.local
