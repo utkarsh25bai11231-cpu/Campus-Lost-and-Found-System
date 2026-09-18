@@ -272,8 +272,8 @@ v
 |        Repositories         |
 | User | Item | Claim         |
 +--------------+--------------+
-/            \
-v              v
+/                       \
+v                        v
 +---------------+   +-------------+
 | JDBC Database |   |  File I/O   |
 |    MySQL      |   |   Export    |
