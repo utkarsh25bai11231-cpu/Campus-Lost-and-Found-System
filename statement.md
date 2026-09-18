@@ -42,28 +42,29 @@ The proposed system aims to:
 
 ## Scope of the Project
 The primary scope of this project is to develop a simple and organised campus level system. It would help students, faculty and staff to report, search, match and claim lost and found items using Java.
+
 The current project is mainly focused on demonstrating these features through a Java command-line application. It is developed as an academic project to apply Java programming concepts such as object-oriented programming, collections, exception handling, file handling, JDBC, and multithreading to a practical campus problem.
 
 Included in scope:
-User registration and login
-Different user types such as Student, Faculty and Staff
-Lost item reporting
-Found item reporting
-Viewing and managing personal reports
-Searching for items
-Filtering items by available criteria
-Rule based possible match detection
-Match score calculation
-Claim submission
-Claim review and status management
-Background matching using multithreading
-Synchronized notification handling
-File-based report/export functionality
-JDBC based database connectivity
-Input validation
-Exception handling
-Maven based project management, and
-Command line execution
+* User registration and login
+* Different user types such as Student, Faculty and Staff
+* Lost item reporting
+* Found item reporting
+* Viewing and managing personal reports
+* Searching for items
+* Filtering items by available criteria
+* Rule based possible match detection
+* Match score calculation
+* Claim submission
+* Claim review and status management
+* Background matching using multithreading
+* Synchronized notification handling
+* File-based report/export functionality
+* JDBC based database connectivity
+* Input validation
+* Exception handling
+* Maven based project management, and
+* Command line execution
 ### Not included in This scope:
 Graphical User Interface (GUI)
 Web application
