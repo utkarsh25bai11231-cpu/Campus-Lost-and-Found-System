@@ -245,7 +245,7 @@ v              v
 |    MySQL      |   |   Export    |
 +---------------+   +-------------+
 
-## Conclusions and Impact
+## Impact and Constraints
 **Significance:**
 
 The project provides a structured approach to managing campus lost and found information.
@@ -274,11 +274,11 @@ Possible future enhancements include:
 * Administrative dashboard.
 * Advanced analytics and reporting.
 * Role-based administrative access.
-## Conclusion:
+## Conclusion
 The Campus Lost and Found System provides a structured command-line solution for managing lost and found items within a campus environment.
 
-The project combines multiple Java concepts including object-oriented programming, collections, exception handling, multithreading, synchronization, file handling, and JDBC.
+The project combines multiple Java concepts including object-oriented programming, collections, exception handling, multithreading, synchronization, file handling and JDBC.
 
-The application demonstrates how these concepts can be integrated into a single practical system with separate modules for users, reports, searching, matching, and claims.
+The application demonstrates how these concepts can be integrated into a single practical system with separate modules for users, reports, searching, matching and claims.
 
                       Thank You!
