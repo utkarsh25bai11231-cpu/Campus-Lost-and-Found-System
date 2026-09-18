@@ -45,7 +45,7 @@ The primary scope of this project is to develop a simple and organised campus le
 
 The current project is mainly focused on demonstrating these features through a Java command-line application. It is developed as an academic project to apply Java programming concepts such as object-oriented programming, collections, exception handling, file handling, JDBC, and multithreading to a practical campus problem.
 
-Included in scope:
+### Included in this scope:
 * User registration and login
 * Different user types such as Student, Faculty and Staff
 * Lost item reporting
@@ -65,7 +65,7 @@ Included in scope:
 * Exception handling
 * Maven based project management, and
 * Command line execution
-### Not included in This scope:
+### Not included in this scope:
 Graphical User Interface (GUI)
 Web application
 Mobile application
@@ -78,20 +78,25 @@ Online payment systems
 
 ## Target Users
 This analyser is designed for a variety of users who need a simple and efficient system for collecting and managing information about the lost items and finding their matches in a certain time.
+
 The intended users of the system are:
-Students: Students can report lost or found belongings, search reports, check possible matches and submit claims.
-Faculty Members: Faculty members can report and search their lost and found items and participate in the claim process.
-Staff Members: Campus staff members can manage reports and participate in the lost and found workflow.
-Campus Administration / Security Staff: This system provides a structured record that can support the management of lost and found items.
-Academic Evaluators: This project also demonstrates practical application of Java programming concepts for academic evaluation under CSE2006.
+
+**Students:** Students can report lost or found belongings, search reports, check possible matches and submit claims.
+
+**Faculty Members:** Faculty members can report and search their lost and found items and participate in the claim process.
+**Staff Members:** Campus staff members can manage reports and participate in the lost and found workflow.
+**Campus Administration / Security Staff:** This system provides a structured record that can support the management of lost and found items.
+**Academic Evaluators:** This project also demonstrates practical application of Java programming concepts for academic evaluation under CSE2006.
 
 ## Approaching Method
 The project follows a modular approach in which different responsibilities are separated into models, services, repositories, utilities, database components and exception classes.
-### Step 1 – Requirement Analysis The requirements of a campus lost and found system were identified, including reporting, searching, matching, and claiming items.
-### Step 2 – System Design The application was divided into multiple modules so that each module handles a specific responsibility.
-### Step 3 – Object oriented Design Classes such as ‘User’, ‘Student’, ‘Faculty’, ‘Staff’, ‘Item’, ‘LostReport’, ‘FoundReport’ and ‘Claim’ are used to represent system entities. Inheritance and polymorphism are used to represent different types of users.
-### Step 4 – Data Management Collections such as ‘ArrayList’ and ‘HashMap’ are used to manage application data and indexes. JDBC is used to provide database connectivity.
-### Step 5 – Search and Matching Users can search and filter reported items. A rule-based matching algorithm calculates a score between lost and found reports.
+
+* **Step 1 –** Requirement Analysis The requirements of a campus lost and found system were identified, including reporting, searching, matching, and claiming items.
+* **Step 2 –** System Design The application was divided into multiple modules so that each module handles a specific responsibility.
+* **Step 3 –** Object oriented Design Classes such as ‘User’, ‘Student’, ‘Faculty’, ‘Staff’, ‘Item’, ‘LostReport’, ‘FoundReport’ and ‘Claim’ are used to represent system entities. Inheritance and polymorphism are used to represent different types of users.
+* **Step 4 –** Data Management Collections such as ‘ArrayList’ and ‘HashMap’ are used to manage application data and indexes. JDBC is used to provide database connectivity.
+* **Step 5 –** Search and Matching Users can search and filter reported items. A rule-based matching algorithm calculates a score between lost and found reports.
+
 In Statement.md it is implemented as:
 | Matching Factor | Maximum Score |
 |---|---:|
@@ -99,30 +104,31 @@ In Statement.md it is implemented as:
 | Date Proximity | 20 |
 | Description Similarity | 30 |
 |Total | 100 |
-### Step 6 – Validation and Exception Handling Input validation is performed for fields such as names, email addresses, dates and numerical values. Custom exceptions are used to handle application-specific errors.
-### Step 7 – Multithreading Background matching tasks are executed using Java threads so that possible matches can be processed separately from the main command-line workflow. Synchronization is used where shared notification data requires controlled access.
-### Step 8 – File Handling Java file I/O classes are used for exporting or storing application information.
-### Step 9 – Testing The application is tested through command line execution and functional workflows such as registration, login, reporting, searching, matching and claiming.
+* **Step 6 –** Validation and Exception Handling Input validation is performed for fields such as names, email addresses, dates and numerical values. Custom exceptions are used to handle application specific errors.
+* **Step 7 –** Multithreading Background matching tasks are executed using Java threads so that possible matches can be processed separately from the main command-line workflow. Synchronization is used where shared notification data requires controlled access.
+* **Step 8 –** File Handling Java file I/O classes are used for exporting or storing application information.
+* **Step 9 –** Testing The application is tested through command line execution and functional workflows such as registration, login, reporting, searching, matching and claiming.
 
 ## High Level Features
-User Management
-Registration
-Login
-User type selection
-Profile related operations
-Lost Item Management
-Users can report items that they have lost by providing relevant information
+* User Management
+* Registration
+* Login
+* User type selection
+* Profile related operations
+* Lost Item Management
+* Users can report items that they have lost by providing relevant information
 such as:
-Item name
-Category
-Location
-Date
-Description
-Found Item Management
-Users can register items they have found using similar item information.
-Search and Filtering
-Users can search reported items using keywords and filters such as category and other available criteria.
-Possible Match Detection
+- Item name
+- Category
+- Location
+- Date
+- Description
+- Found Item Management
+* Users can register items they have found using similar item information.
+* Search and Filtering
+* Users can search reported items using keywords and filters such as category and other available criteria.
+* Possible Match Detection
+
 The system compares lost and found reports and generates a match score. The score is calculated using:
 ```text
 Category Match       → 25 marks
@@ -131,16 +137,23 @@ Date Similarity      → 20 marks
 Description Match    → 30 marks
 --------------------------------
 Maximum Score        → 100 marks
+
 Possible matches can be classified based on the calculated score.
-Claim Management
+
+* Claim Management
+
 Users can submit claims for found items.
 Claims can move through different statuses such as:
-Pending
-Approved
-Rejected
-Multithreading
+
+- Pending
+- Approved
+- Rejected
+
+* Multithreading
+
 Matching tasks can run in the background using Java's multithreading functionality.
-File Export
+
+* File Export
 The system provides file-based export functionality for application information and reports.
 
 ```text
