@@ -1,8 +1,8 @@
 # Campus Lost and Found System
 
-![**Java**]
-![**MySQL**]
-![**Academic Project**]
+[**Java**]
+[**MySQL**]
+[**Academic Project**]
 ## Abstract
 The **Campus Lost and Found System** is a robust, Java-based application designed to bridge the gap between students, faculty and staff who have lost personal belongings and those who have found them. In a bustling university campus, keeping track of lost items can be chaotic. This system digitizes the process, featuring automated matching, secure claim management, and role-based user management.
 
@@ -97,7 +97,11 @@ All UML diagrams designed for this project can be found in the `/docs` directory
 * Add an **Administrative Dashboard**.
 
 ## Contributor
-* **Utkarsh** - *B.Tech Computer Science & Engineering* - https://github.com/utkarsh25bai11231-cpu
+* **Utkarsh**
+* B.Tech Computer Science & Engineering (Artificial Intelligence and Machine Learning) 
+***Registration Number:** 25BAI11231
+* VIT Bhopal University
+* https://github.com/utkarsh25bai11231-cpu/Campus-Lost-and-Found-System
    
 
 ---
