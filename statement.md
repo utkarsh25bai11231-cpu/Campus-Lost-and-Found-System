@@ -184,6 +184,7 @@ Claims can move through different statuses such as:
 
 The system provides file-based export functionality for application information and reports.
 
+```text
 Start
   |
   v
@@ -208,7 +209,7 @@ Main Menu
   |
   v
 Logout / Exit
-
+```
 
 ## Expected Outcomes
 This project is expected to outcome the followings:
