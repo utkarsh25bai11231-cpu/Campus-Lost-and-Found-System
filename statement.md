@@ -164,10 +164,11 @@ In Statement.md it is implemented as:
    Description Match    → 30 marks
    --------------------------------
    Maximum Score        → 100 marks
+```
 
 Possible matches can be classified based on the calculated score.
 
-**6.** **Claim Management**
+**6. Claim Management**
 
 Users can submit claims for found items.
 Claims can move through different statuses such as:
