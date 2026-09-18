@@ -1,13 +1,12 @@
 # Campus Lost and Found System
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![Academic Project](https://img.shields.io/badge/Project-BTech_CS-blue?style=for-the-badge)
-
+![**Java**]
+![**MySQL**]
+![**Academic Project**]
 ## Abstract
-The **Campus Lost and Found System** is a robust, Java-based application designed to bridge the gap between students, faculty, and staff who have lost personal belongings and those who have found them. In a bustling university campus, keeping track of lost items can be chaotic. This system digitizes the process, featuring automated matching, secure claim management, and role-based user management.
+The **Campus Lost and Found System** is a robust, Java-based application designed to bridge the gap between students, faculty and staff who have lost personal belongings and those who have found them. In a bustling university campus, keeping track of lost items can be chaotic. This system digitizes the process, featuring automated matching, secure claim management, and role-based user management.
 
-This project was developed applying **Object-Oriented Programming (OOP)** principles, **JDBC** for database interactions, and a clean **Repository/Service architecture**.
+This project was developed applying **Object-Oriented Programming (OOP)** principles, **JDBC** for database interactions and a clean **Repository/Service architecture**.
 
 ## Features
 * **Role-Based Access:** Distinct models and privileges for `Student`, `Faculty`, and `Staff`.
@@ -86,7 +85,7 @@ All UML diagrams designed for this project can be found in the `/docs` directory
 4. **Execution:**
    Run the compiled application:
    * Using Command Prompt: `run.bat`
-   * Using PowerShell: `./run.ps1`
+   * Using PowerShell: `./run.ps1` 
 
 ## Future Scope
 * **GUI Integration:** Migrate from a console based approach to a JavaFX or Web-based (Spring Boot) frontend.
@@ -99,6 +98,6 @@ All UML diagrams designed for this project can be found in the `/docs` directory
 
 ## Contributor
 * **Utkarsh** - *B.Tech Computer Science & Engineering* - https://github.com/utkarsh25bai11231-cpu
-*  
+   
 
 ---
