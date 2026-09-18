@@ -182,36 +182,43 @@ Logout / Exit
 ```
 ## Expected Outcomes
 This project is expected to outcome the followings:
-A functional command line lost and found management system.
-Organized handling of lost and found reports.
-Faster searching of available reports.
-Automated rule based identification of possible matches.
-Structured claim management.
-Demonstration of major Java programming concepts.
-Modular and maintainable source code.
-Proper validation and exception handling.
-Practical use of Java collections, file handling, JDBC and multithreading.
+
+* A functional command line lost and found management system.
+* Organized handling of lost and found reports.
+* Faster searching of available reports.
+* Automated rule based identification of possible matches.
+* Structured claim management.
+* Demonstration of major Java programming concepts.
+* Modular and maintainable source code.
+* Proper validation and exception handling.
+* Practical use of Java collections, file handling, JDBC and multithreading.
 
 ## Technological Overview
-Programming Language: Java
-Build Tool: Apache Maven
-Database: MySQL with JDBC
-Development Environment: Visual Studio Code / Command Line
-Java Concepts Used:
-OOP
-Inheritance
-Encapsulation
-Polymorphism
-Abstract Classes
-Interfaces
-Collections
-Exception Handling
-Multithreading
-Synchronization
-File I/O
-JDBC
-Enums
-Packages
+**Programming Language:** Java
+
+**Build Tool:** Apache Maven
+
+**Database:** MySQL with JDBC
+
+**Development Environment:** Visual Studio Code / Command Line
+
+**Java Concepts Used:**
+
+* OOP
+* Inheritance
+* Encapsulation
+* Polymorphism
+* Abstract Classes
+* Interfaces
+* Collections
+* Exception Handling
+* Multithreading
+* Synchronization
+* File I/O
+* JDBC
+* Enums
+* Packages
+
 ## System Architecture
 This system follows a layered modular architecture:
 +-----------------------------+
@@ -239,33 +246,41 @@ v              v
 +---------------+   +-------------+
 
 ## Conclusions and Impact
-Significance:
+**Significance:**
+
 The project provides a structured approach to managing campus lost and found information.
+
 Instead of depending only on informal communication, the application provides a centralized workflow for reporting, searching, matching, and claiming items.
+
 From an academic perspective, the project demonstrates how Java programming concepts can be combined to develop a practical application rather than implementing concepts independently.
 
-Limitations:
+**Limitations:**
+
 The current implementation has some limitations:
-It is command-line based.
-It does not provide a web or mobile interface.
-Matching is rule-based rather than machine-learning based.
-External notification services are not included.
-The current database implementation is intended for the project environment rather than large-scale deployment.
+
+* It is command-line based.
+* It does not provide a web or mobile interface.
+* Matching is rule-based rather than machine-learning based.
+* External notification services are not included.
+* The current database implementation is intended for the project environment rather than large-scale deployment.
 ## Future Enhancements
 Possible future enhancements include:
-Development of a web-based interface.
-Development of a mobile application.
-Integration with institutional authentication.
-Email and SMS notifications.
-Image-based item matching.
-Machine-learning-based matching.
-Cloud database deployment.
-Administrative dashboard.
-Advanced analytics and reporting.
-Role-based administrative access.
+
+* Development of a web-based interface.
+* Development of a mobile application.
+* Integration with institutional authentication.
+* Email and SMS notifications.
+* Image-based item matching.
+* Machine-learning-based matching.
+* Cloud database deployment.
+* Administrative dashboard.
+* Advanced analytics and reporting.
+* Role-based administrative access.
 ## Conclusion:
 The Campus Lost and Found System provides a structured command-line solution for managing lost and found items within a campus environment.
+
 The project combines multiple Java concepts including object-oriented programming, collections, exception handling, multithreading, synchronization, file handling, and JDBC.
+
 The application demonstrates how these concepts can be integrated into a single practical system with separate modules for users, reports, searching, matching, and claims.
 
-Thank You!
+            **Thank You!**
