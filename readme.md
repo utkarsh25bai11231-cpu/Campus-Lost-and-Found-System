@@ -59,7 +59,7 @@ All UML diagrams designed for this project can be found in the `/docs` directory
 1. **Java Development Kit (JDK 8 or higher)** installed and added to PATH.
 2. **MySQL Server** installed and running.
 
-### Step-by-Step Guide
+### Step by Step Guide
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/YourUsername/Campus-Lost-and-Found-System.git
