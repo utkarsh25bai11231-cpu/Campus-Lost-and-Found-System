@@ -85,7 +85,10 @@ All UML diagrams designed for this project can be found in the `/docs` directory
 4. **Execution:**
    Run the compiled application:
    * Using Command Prompt: `run.bat`
-   * Using PowerShell: `./run.ps1` 
+   * Using PowerShell: `./run.ps1`
+
+[Run the App](src/Main.java)
+
 
 ## Future Scope
 * **GUI Integration:** Migrate from a console based approach to a JavaFX or Web-based (Spring Boot) frontend.
