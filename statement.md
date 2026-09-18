@@ -32,12 +32,13 @@ A rule based matching mechanism is used to compare lost and found reports using 
 ## Purpose of the Project
 The primary purpose of this project is to provide a structured system for managing lost and found items on a college campus.
 The proposed system aims to:
-Maintain organized records of lost and found items.
-Reduce the difficulty of searching for reported items.
-Help users identify potentially matching lost and found reports.
-Provide a structured claim process.
-Demonstrate practical implementation of Java programming concepts.
-Provide a command line application which can be executed without a graphical interface.
+
+* Maintain organized records of lost and found items.
+* Reduce the difficulty of searching for reported items.
+* Help users identify potentially matching lost and found reports.
+* Provide a structured claim process.
+* Demonstrate practical implementation of Java programming concepts.
+* Provide a command line application which can be executed without a graphical interface.
 
 ## Scope of the Project
 The primary scope of this project is to develop a simple and organised campus level system. It would help students, faculty and staff to report, search, match and claim lost and found items using Java.
