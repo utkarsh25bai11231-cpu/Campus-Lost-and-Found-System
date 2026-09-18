@@ -111,22 +111,23 @@ In Statement.md it is implemented as:
 
 ## High Level Features
 * User Management
-* Registration
-* Login
-* User type selection
-* Profile related operations
+- Registration
+- Login
+- User type selection
+- Profile related operations
 * Lost Item Management
-* Users can report items that they have lost by providing relevant information
+
+Users can report items that they have lost by providing relevant information
 such as:
 - Item name
 - Category
 - Location
 - Date
 - Description
-- Found Item Management
-* Users can register items they have found using similar item information.
+* Found Item Management
+- Users can register items they have found using similar item information.
 * Search and Filtering
-* Users can search reported items using keywords and filters such as category and other available criteria.
+- Users can search reported items using keywords and filters such as category and other available criteria.
 * Possible Match Detection
 
 The system compares lost and found reports and generates a match score. The score is calculated using:
