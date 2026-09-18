@@ -253,6 +253,8 @@ This project is expected to outcome the followings:
 
 ## System Architecture
 This system follows a layered modular architecture:
+
+```text
 +-----------------------------+
 |       Command Line UI       |
 |      Menu and Input         |
@@ -276,6 +278,7 @@ v              v
 | JDBC Database |   |  File I/O   |
 |    MySQL      |   |   Export    |
 +---------------+   +-------------+
+```
 
 ## Impact and Constraints
 **Significance:**
