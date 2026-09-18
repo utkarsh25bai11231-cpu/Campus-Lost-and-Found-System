@@ -99,7 +99,7 @@ All UML diagrams designed for this project can be found in the `/docs` directory
 ## Contributor
 * **Utkarsh**
 * B.Tech Computer Science & Engineering (Artificial Intelligence and Machine Learning) 
-***Registration Number:** 25BAI11231
+* **Registration Number:** 25BAI11231
 * VIT Bhopal University
 * https://github.com/utkarsh25bai11231-cpu/Campus-Lost-and-Found-System
    
