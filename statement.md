@@ -1,28 +1,32 @@
 # Project Statement
 ## Problem Statement
 In a college campus students, faculty members and staff frequently lose or find personal belongings such as identity cards, books, calculators, wallets, keys, bags, electronic devices and other useful items. At present time, information about lost and found items may be shared through informal communication channels, student groups, security desks or personal communication. This can make it difficult to maintain a centralized record of reported items. Searching for a particular item can also become time consuming when the number of reports increases.
+
 Another difficulty is identifying whether a reported lost item corresponds to an item that has already been found. The person who lost an item may not know that someone else has reported finding it.
+
 Therefore, a simple centralized system is required to allow campus users to report lost and found items, search existing reports, identify possible matches and manage the process of claiming an item.
+
 Hence, there is a need for an intelligent system that can assist to manage the process of Lost and Found, from registering the lost item to finding its matches and finally getting the exact item which was lost.
 
 # Project Statement
-The Campus Lost and Found System is a command line based Java application designed to manage lost and found item reports within a campus environment. The application allows users to register and log in, report lost or found items, then search and filter reports, identify possible matches between lost and found items and submit claims for found items.
+The **Campus Lost and Found System** is a command line based Java application designed to manage lost and found item reports within a campus environment. The application allows users to register and log in, report lost or found items, then search and filter reports, identify possible matches between lost and found items and submit claims for found items.
 The system is developed using Java and demonstrates important concepts from the Programming in Java course, including:
 Object-Oriented Programming
-Classes and Objects
-Encapsulation
-Inheritance
-Method Overriding
-Runtime Polymorphism
-Interfaces and Abstract Classes
-Exception Handling
-Collections
-Multithreading
-Synchronization
-File Input/Output
-JDBC and Database Connectivity
-Enumerations
-Input Validation
+* Classes and Objects
+* Encapsulation
+* Inheritance
+* Method Overriding
+* Runtime Polymorphism
+* Interfaces and Abstract Classes
+* Exception Handling
+* Collections
+* Multithreading
+* Synchronization
+* File Input/Output
+* JDBC and Database Connectivity
+* Enumerations
+* Input Validation
+
 A rule based matching mechanism is used to compare lost and found reports using category, location, date proximity and description similarity.
 
 ## Purpose of the Project
